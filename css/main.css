@@ -38,3 +38,46 @@
     padding: 0.5rem 2.2rem;
     margin-top: 1rem;
 }
+
+/* Recommendation Container */
+.card-container {
+    padding: 1rem 6rem;
+}
+
+.card-title {
+    color: #335576;
+}
+.card-item {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.card-image {
+    display: flex;
+    flex-direction: ;
+    border-radius: 1rem;
+}
+.card-list {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.card-img {
+    background-size: cover;
+    background-position: center;
+    width: 18rem;
+    height: 26rem;
+    color: white;
+    text-decoration: none;
+}
+
+.card-hawaii {
+    background-image: url(../assets/images/hawaii.jpg);
+}
+.card-iceland {
+    background-image: url(../assets/images/iceland.jpg);
+}
+.card-greece {
+    background-image: url(../assets/images/greece.jpg);
+}
+/*  */

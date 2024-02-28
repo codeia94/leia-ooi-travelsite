@@ -51,7 +51,10 @@ li {
     justify-content: center;
     justify-content: space-around;
 }
+.card-image {
+    display: flex;
+}
 .card-list {
-    text-decoration: none;
+    display: flex;
 }
 /*  */
