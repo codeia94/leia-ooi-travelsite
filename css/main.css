@@ -59,25 +59,16 @@
 .card-list {
     display: flex;
     margin: 1rem 0;
+    position: relative;
 }
 
-.card-img {
-    background-size: cover;
-    background-position: center;
-    width: 18rem;
-    height: 26rem;
+
+.card-list__text-wrapper {
+    position: absolute;
+    /* background-color: #335576; */
     color: white;
-    text-decoration: none;
-    
-}
+    top: 21rem;
+    left: 10rem;
 
-.card-hawaii {
-    background-image: url(../assets/images/hawaii.jpg);
-}
-.card-iceland {
-    background-image: url(../assets/images/iceland.jpg);
-}
-.card-greece {
-    background-image: url(../assets/images/greece.jpg);
 }
 /*  */

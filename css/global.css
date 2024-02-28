@@ -1,60 +1,58 @@
-
+* {
+    box-sizing: border-box;
+}
 
 body {
     font-family: Verdana;
-   
+    margin: 0;
 }
 
+
+
 /* navigation css */
-.navigation {
-    display: flex;
+.site-header {
     background-color: #FFFFFF;
+    position: fixed;
+    width: 100%;
+    top: 0;;
+    box-sizing: border-box;
     padding: 0 6rem;
-    justify-content: space-between;
-    background-color: #FFFFFF;
-    height: 50px;
-    align-items: center;
 }
-.navigation-logo {
+
+.site-header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-logo {
     color: #335576;
     font-size: larger;
     font-weight: bolder;
+    text-decoration: none;
 }
-.navigation-item {
+.navigation {
     display: flex;
-    padding-left: 1rem;
+    justify-content: center;
+    /* padding-left: 1rem; */
+    
 }
 .navigation-list {
     display: flex;
-    text-align: right;
+    box-sizing: border-box;
+    padding-inline-start: 0;
+    /* text-align: justify; */
+
 }
 .navigation-link {
-    margin-left: 1rem;
+
+    /* margin-left: 1rem; */
+    
 }
 li {
-    list-style-type: none;
+    list-style: none;
     font-size: 0.85rem;
 }
 
 /* navigation css */
 
-/* Recommendation Container */
-.card-container {
-    padding: 1rem 6rem;
-}
-
-.card-title {
-    color: #335576;
-}
-.card-item {
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-}
-.card-image {
-    display: flex;
-}
-.card-list {
-    display: flex;
-}
-/*  */
