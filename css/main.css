@@ -54,7 +54,6 @@
 }
 .card-image {
     display: flex;
-    flex-direction: ;
     border-radius: 1rem;
 }
 .card-list {
@@ -69,6 +68,7 @@
     height: 26rem;
     color: white;
     text-decoration: none;
+    
 }
 
 .card-hawaii {
