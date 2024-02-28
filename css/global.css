@@ -1,0 +1,57 @@
+
+
+body {
+    font-family: Verdana;
+   
+}
+
+/* navigation css */
+.navigation {
+    display: flex;
+    background-color: #FFFFFF;
+    padding: 0 6rem;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    height: 50px;
+    align-items: center;
+}
+.navigation-logo {
+    color: #335576;
+    font-size: larger;
+    font-weight: bolder;
+}
+.navigation-item {
+    display: flex;
+    padding-left: 1rem;
+}
+.navigation-list {
+    display: flex;
+    text-align: right;
+}
+.navigation-link {
+    margin-left: 1rem;
+}
+li {
+    list-style-type: none;
+    font-size: 0.85rem;
+}
+
+/* navigation css */
+
+/* Recommendation Container */
+.card-container {
+    padding: 1rem 6rem;
+}
+
+.card-title {
+    color: #335576;
+}
+.card-item {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.card-list {
+    text-decoration: none;
+}
+/*  */
