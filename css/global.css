@@ -17,6 +17,7 @@ body {
     top: 0;;
     box-sizing: border-box;
     padding: 0 6rem;
+    z-index: 1;
 }
 
 .site-header__wrapper {
@@ -42,10 +43,12 @@ body {
     box-sizing: border-box;
     padding-inline-start: 0;
     /* text-align: justify; */
-
+}
+.navigation-item {
+    padding-left: 0.8rem;
 }
 .navigation-link {
-
+    text-decoration: none;
     /* margin-left: 1rem; */
     
 }
