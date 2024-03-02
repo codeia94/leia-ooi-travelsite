@@ -59,3 +59,30 @@ li {
 
 /* navigation css */
 
+/* footer */
+
+.site-footer {
+    background-color: #FEFAF5;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 7rem;
+
+    .footer-category {
+        display: flex;
+    }
+}
+
+
+
+.footer-item__list {
+    display: flex;
+    margin-top: -0.8rem;
+    
+}
+.footer-item__title, .footer-item__description {
+    font-size: 0.8rem;
+}
+
+.footer-item__title {
+    margin: 0rem 1.5rem 0rem 0rem;
+}
