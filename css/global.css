@@ -48,15 +48,15 @@ h3 {
     margin-left: 0.8rem;
     color: black;
 }
-.navigation-link:hover {
-    text-decoration: #DB7A4E underline .1875rem;
-    text-underline-offset: 8px;
-}
-.navigation-link:active {
-    text-decoration: #DB7A4E underline .1875rem;
-    text-underline-offset: 8px;
-}
 
+.navigation-link__active {
+    border-bottom: #DB7A4E solid 2px;
+    padding-bottom: 5px;
+}
+.navigation-link:hover {
+    border-bottom: #DB7A4E solid 2px;
+    padding-bottom: 5px;
+}
 li {
     list-style: none;
     font-size: 0.85rem;
