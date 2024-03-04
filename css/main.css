@@ -21,9 +21,9 @@
     text-align: left;
 } */
 
-.hero-text {
+/* .hero-text {
 
-}
+} */
 .hero-image {
     display: flex;
     justify-content: end;
@@ -81,9 +81,14 @@
 .card-list__text-wrapper {
     position: absolute;
     /* background-color: #335576; */
-    color: white;
+    /* color: white; */
     top: 20.5rem;
     left: 10rem;
 
+    .card-list__image-title {
+        color: white;
+    }
+
 }
 /*  */
+
