@@ -21,13 +21,11 @@ h3 {
     padding: 0 6rem;
     z-index: 1;
 }
-
 .site-header__wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 .site-logo {
     color: #335576;
     font-size: larger;
@@ -44,16 +42,21 @@ h3 {
     display: flex;
     box-sizing: border-box;
     padding-inline-start: 0;
-    /* text-align: justify; */
-}
-.navigation-item {
-    padding-left: 0.8rem;
 }
 .navigation-link {
     text-decoration: none;
-    /* margin-left: 1rem; */
-    
+    margin-left: 0.8rem;
+    color: black;
 }
+.navigation-link:hover {
+    text-decoration: #DB7A4E underline .1875rem;
+    text-underline-offset: 8px;
+}
+.navigation-link:active {
+    text-decoration: #DB7A4E underline .1875rem;
+    text-underline-offset: 8px;
+}
+
 li {
     list-style: none;
     font-size: 0.85rem;
@@ -86,7 +89,6 @@ li {
     display: flex;
     flex-direction: column;
 }
-
 .footer-logo {
     height: 1.25rem;
     margin-top: 2.3rem;
