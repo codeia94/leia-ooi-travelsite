@@ -1,7 +1,3 @@
-
-
-/* hero css */
-
 .hero-content {
     display: flex;
     background-color: #FEFAF5;
@@ -17,13 +13,6 @@
     font-size: .875rem;
     font-weight: 500;
 }
-/* .hero-text {
-    text-align: left;
-} */
-
-/* .hero-text {
-
-} */
 .hero-image {
     display: flex;
     justify-content: end;
@@ -42,8 +31,6 @@
     margin-top: 1rem;
 }
 
-/* Recommendation Container */
-
 .site-main {
     max-width: 1280px;
 }
@@ -53,7 +40,6 @@
 .card-container {
     padding: 1.5rem 6rem 2.5rem 6rem;
 }
-
 .card-title {
     color: #335576;
 }
@@ -61,8 +47,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* justify-content: space-evenly; */
-
     padding: 1rem;
 }
 .card-image {
@@ -75,13 +59,11 @@
 .card-image:hover {
     opacity: 1;
 }
-
 .card-list {
     display: flex;
     position: relative;
     margin: 0 1.3rem;
 }
-
 .card-list__text-wrapper {
     position: absolute;
     top: 20.5rem;
@@ -92,5 +74,4 @@
     }
 
 }
-/*  */
 
